@@ -1,0 +1,56 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat-interface {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+}
+
+.chat-list {
+  width: 30%;
+  border-right: 1px solid #ccc;
+}
+
+.chat-window {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.messages {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.message {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+form {
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+}
